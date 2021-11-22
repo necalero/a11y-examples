@@ -12,13 +12,16 @@
       <h1>Navigation & Tabs</h1>
       <div class="container">
         <form action="">
-          <p>First Name:</p>
-          <input type="text" />
-          <p>Last Name:</p>
-          <input type="text" />
+          <label for="FirstName">First Name:</label>
+          <input id="FirstName" name="FirstName" type="text" />
+          <label for="LastName">Last Name:</label>
+          <input id="LastName" name="LastName" type="text" />
           <div onclick="printMessage()" class="button">Submit</div>
         </form>
-        <img src="../assets/images/dog.jpeg" />
+        <img
+          src="../assets/images/dog.jpeg"
+          alt="Golden retriever with blurred background"
+        />
       </div>
     </main>
     <script src="./index.js"></script>
